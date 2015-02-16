@@ -1,0 +1,51 @@
+/*!
+ *  Font Joker https://github.com/sabbiseaan/font-jkr - @font-joker
+ *  License - go to the github link fore more
+ */
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+	font-family: 'font-joker';
+	src:url('fonts/font-joker.eot?-mst6wz');
+	src:url('fonts/font-joker.eot?#iefix-mst6wz') format('embedded-opentype'),
+		url('fonts/font-joker.woff?-mst6wz') format('woff'),
+		url('fonts/font-joker.ttf?-mst6wz') format('truetype'),
+		url('fonts/font-joker.svg?-mst6wz#font-joker') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="csicon-"], [class*=" csicon-"] , .csicon {
+	font-family: 'font-joker';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.csicon-ratin-empty:before {
+	content: "\e600";
+}
+
+.csicon-ratin-half:before {
+	content: "\e601";
+}
+
+.csicon-ratin-half-inverse:before {
+	content: "\e602";
+}
+
+.csicon-ratin:before {
+	content: "\e006";
+}
+
+.csicon-pretty-line:before {
+	content: "\e603";
+}
+
